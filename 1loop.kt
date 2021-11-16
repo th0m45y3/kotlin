@@ -15,7 +15,5 @@ fun main() {
     	println("f(%.1f): %.4f".format(i, list.last()))
         i += x
     }
-    //println("B1: % function values have an odd intteger part.".format(list.count { e -> e.toInt() % 2 != 0 })
     println( list.filter{e -> abs(e % 1) > 0.2 && abs(e % 1) < 0.8 }.average() )
-    //println("B2: % function values have an odd intteger part.".format()
 }
